@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="100"
+    >
+    <ListView
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:id="@+id/listviewTester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        >
+    </ListView>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/submit_test"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit and Know your score"
+        android:layout_weight="20"
+        />
+</LinearLayout>
